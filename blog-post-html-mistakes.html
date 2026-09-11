@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://www.dilsecodeacademy.com">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <title>5 Beginner Mistakes That Slow Down Your First HTML Project | Dilse Code Academy</title>
+    <meta name="description"
+        content="The five most common HTML mistakes beginners make in their first project, and how to fix each one.">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="images/dilse.logo.png" alt="Dilse Code Academy logo" width="600" height="250">
+                <h1>Dilse Code Academy</h1>
+            </a>
+        </div>
+
+        <hr>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="docs/getting-started.html">Docs</a></li>
+                <li><a href="courses/catalog.html">Courses</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="blog.html" aria-current="page">Blog</a></li>
+                <li><a href="student/dashboard.html">Dashboard</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="main-content">
+        <article>
+            <h1>5 Beginner Mistakes That Slow Down Your First HTML Project</h1>
+            <p><time datetime="2026-08-12">August 12, 2026</time></p>
+
+            <p>Every student makes these mistakes at least once — and every single one of them is easy to fix once you
+                know what to look for. Here's what trips up beginners most in their first few weeks.</p>
+
+            <h2>1. Reaching for a &lt;div&gt; before checking if a real tag exists</h2>
+            <p>It's the fastest habit to fall into: wrap everything in a &lt;div&gt;, style it, move on. But HTML
+                already has tags for most of what you're building — &lt;nav&gt;, &lt;header&gt;, &lt;article&gt;,
+                &lt;button&gt;. Using them isn't a style preference; it's what lets screen readers, search engines, and
+                your own future self actually understand the page.</p>
+
+            <h2>2. Skipping the alt attribute, or filling it with nothing useful</h2>
+            <p>An empty alt attribute — or one that just says "image" — helps no one. It should describe what the image
+                is showing and why it's there, the same way you'd describe it out loud to someone who can't see the
+                screen.</p>
+
+            <h2>3. Nesting elements that don't belong together</h2>
+            <p>Putting a &lt;div&gt; inside a &lt;p&gt;, or a heading inside a &lt;span&gt;, will often still render —
+                browsers are forgiving — but it breaks the underlying structure silently. The page looks fine and works
+                badly, which is the worst kind of bug because nothing tells you it's there.</p>
+
+            <h2>4. Writing IDs and classes that describe appearance, not purpose</h2>
+            <p>Naming something "red-box" works until the box isn't red anymore. Naming it "warning-message" survives
+                every redesign that follows, because it describes what the element is, not what it currently looks like.
+            </p>
+
+            <h2>5. Never validating the markup</h2>
+            <p>Most beginners never run their HTML through a validator until something breaks. Doing it early — even on
+                a rough first draft — catches unclosed tags and structural mistakes before they turn into hours of
+                confused debugging later.</p>
+
+            <p>None of these mistakes mean you're bad at this. They mean you're doing exactly what every developer
+                before you did in their first few weeks. The only difference between a beginner and someone six months
+                ahead is how many of these they've already caught.</p>
+
+            <p><a href="blog.html">&larr; Back to the blog</a></p>
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+        <nav aria-label="Footer">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses/catalog.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <address>
+            <p><a href="tel:+254712345678">+254 712 345 678</a> &middot;
+                href="mailto:admissions@dilsecodeacademy.com">admissions@dilsecodeacademy.com</a></p>
+        </address>
+        <p>&copy; 2026 Dilse Code Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

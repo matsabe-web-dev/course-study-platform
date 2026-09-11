@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://www.dilsecodeacademy.com">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <title>HTML Element Reference | Dilse Code Academy Docs</title>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+
+        <hr>
+
+        <div>
+            <a href="../index.html">
+                <img src="../images/dilse.logo.png" alt="Dilse Code Academy logo" width="600" height="250">
+                <h1>Dilse Code Academy</h1>
+            </a>
+        </div>
+
+        <hr>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="api-reference.html" aria-current="page">Docs</a></li>
+                <li><a href="../courses/catalog.html">Courses</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../student/dashboard.html">Dashboard</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="main-content">
+        <h2>HTML Element Reference</h2>
+        <p>A quick reference dictionary of the core semantic elements taught across our Web Development track, listed
+            alphabetically.</p>
+
+        <nav aria-label="Docs Navigation">
+            <ul>
+                <li><a href="getting-started.html">Getting Started</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="api-reference.html" aria-current="page">API Reference</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting &amp; FAQ</a></li>
+            </ul>
+        </nav>
+
+        <dl>
+            <dt><code>&lt;article&gt;</code></dt>
+            <dd>
+                <p>Represents self-contained content that would still make sense if distributed independently — a blog
+                    post, a news story, a single forum comment.</p>
+                <pre><code>&lt;article&gt;
+  &lt;h2&gt;Post Title&lt;/h2&gt;
+  &lt;p&gt;Post content.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+            </dd>
+
+            <dt><code>&lt;aside&gt;</code></dt>
+            <dd>
+                <p>Represents content tangentially related to the main content around it — a sidebar, a pull quote, or
+                    supplementary links.</p>
+                <pre><code>&lt;aside&gt;
+  &lt;h3&gt;Related Links&lt;/h3&gt;
+  &lt;ul&gt;...&lt;/ul&gt;
+&lt;/aside&gt;</code></pre>
+            </dd>
+
+            <dt><code>&lt;details&gt;</code></dt>
+            <dd>
+                <p>Creates a native, JavaScript-free expandable disclosure widget. Must be paired with a
+                    <code>&lt;summary&gt;</code> as its first child.</p>
+                <pre><code>&lt;details&gt;
+  &lt;summary&gt;Click to expand&lt;/summary&gt;
+  &lt;p&gt;Hidden content revealed on click.&lt;/p&gt;
+&lt;/details&gt;</code></pre>
+            </dd>
+
+            <dt><code>&lt;figure&gt;</code></dt>
+            <dd>
+                <p>Wraps self-contained media — an image, diagram, or code sample — that's referenced from the main text
+                    but doesn't need to sit at that exact point in the flow.</p>
+                <pre><code>&lt;figure&gt;
+  &lt;img src="photo.jpg" alt="Description"&gt;
+  &lt;figcaption&gt;Caption text.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+            </dd>
+
+            <dt><code>&lt;nav&gt;</code></dt>
+            <dd>
+                <p>Marks a section containing major navigation links. Not every group of links needs
+                    <code>&lt;nav&gt;</code> — reserve it for primary navigation blocks.</p>
+                <pre><code>&lt;nav aria-label="Main Navigation"&gt;
+  &lt;ul&gt;...&lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+            </dd>
+
+            <dt><code>&lt;section&gt;</code></dt>
+            <dd>
+                <p>Groups a thematically related chunk of content, generally expected to have its own heading.</p>
+                <pre><code>&lt;section aria-labelledby="section-heading"&gt;
+  &lt;h2 id="section-heading"&gt;Title&lt;/h2&gt;
+&lt;/section&gt;</code></pre>
+            </dd>
+        </dl>
+
+        <p>Looking for something not covered here? Check our <a href="troubleshooting.html">Troubleshooting &amp;
+            FAQ</a> page, or reach out through <a href="../contact.html">Contact</a>.</p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <nav aria-label="Footer">
+            <ul>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../courses/catalog.html">Courses</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <address>
+            <p><a href="tel:+254712345678">+254 712 345 678</a> &middot; <a
+                    href="mailto:admissions@dilsecodeacademy.com">admissions@dilsecodeacademy.com</a></p>
+        </address>
+        <p>&copy; 2026 Dilse Code Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

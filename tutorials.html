@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://www.dilsecodeacademy.com">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <title>Tutorials | Dilse Code Academy Docs</title>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div>
+            <a href="../index.html">
+                <img src="../images/dilse.logo.png" alt="Dilse Code Academy logo" width="600" height="250">
+                <h1>Dilse Code Academy</h1>
+            </a>
+        </div>
+
+        <hr>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="tutorials.html" aria-current="page">Docs</a></li>
+                <li><a href="../courses/catalog.html">Courses</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../student/dashboard.html">Dashboard</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="main-content">
+        <h2>Tutorials</h2>
+        <p>Practical, step-by-step walkthroughs for absolute beginners. Follow along in order, and you'll have a working
+            project by the end.</p>
+
+        <nav aria-label="Docs Navigation">
+            <ul>
+                <li><a href="getting-started.html">Getting Started</a></li>
+                <li><a href="tutorials.html" aria-current="page">Tutorials</a></li>
+                <li><a href="api-reference.html">API Reference</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting &amp; FAQ</a></li>
+            </ul>
+        </nav>
+          
+        <hr>
+
+        <article aria-labelledby="tutorial-1-heading">
+            <h3 id="tutorial-1-heading">Creating Your First Project</h3>
+            <p>Before you touch any real coursework, let's set up a clean project folder the right way — the same
+                structure you'll reuse for every assignment going forward.</p>
+
+            <ol>
+                <li>Create a new folder on your computer named <code>my-first-project</code>.</li>
+                <li>Open that folder in VS Code using File &rarr; Open Folder.</li>
+                <li>Inside it, create a new file named <code>index.html</code>.</li>
+                <li>
+                    Type the following starter code into <code>index.html</code>:
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My First Project&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </li>
+                <li>Save the file, then right-click inside it and choose "Open with Live Server."</li>
+                <li>Your browser should open automatically and display "Hello, World!"</li>
+            </ol>
+        </article>
+
+        <hr>
+
+        <article aria-labelledby="tutorial-2-heading">
+            <h3 id="tutorial-2-heading">Publishing Your Project to GitHub</h3>
+            <p>Once you've built something, you'll want a record of it — and a public link to show it off. Here's how to
+                push your first project to GitHub.</p>
+
+            <ol>
+                <li>Open the terminal inside VS Code (Terminal &rarr; New Terminal).</li>
+                <li>Run <code>git init</code> to start tracking your project with Git.</li>
+                <li>Run <code>git add .</code> to stage all your files.</li>
+                <li>Run <code>git commit -m "My first commit"</code> to save a snapshot.</li>
+                <li>Create a new repository on GitHub, then follow GitHub's instructions to push your local project to
+                    it.</li>
+                <li>Refresh your GitHub repository page — your files should now appear there.</li>
+            </ol>
+        </article>
+
+        <p>Once you're comfortable with both of these, you're ready to move on to <a href="../courses/catalog.html">your
+                first real lesson</a>.</p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <nav aria-label="Footer">
+            <ul>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../courses/catalog.html">Courses</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <address>
+            <p><a href="tel:+254712345678">+254 712 345 678</a> &middot; <a
+                    href="mailto:admissions@dilsecodeacademy.com">admissions@dilsecodeacademy.com</a></p>
+        </address>
+        <p>&copy; 2026 Dilse Code Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

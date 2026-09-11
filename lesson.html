@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://www.dilsecodeacademy.com">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <title>Lesson 1.3: Building Your First Layout | Dilse Code Academy</title>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+
+        <hr>
+
+        <div>
+            <a href="../index.html">
+                <img src="../images/dilse.logo.png" alt="Dilse Code Academy logo" width="600" height="250">
+                <h1>Dilse Code Academy</h1>
+            </a>
+        </div>
+
+        <hr>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../student/dashboard.html">Dashboard</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="main-content">
+        <p>Module 1: HTML &amp; CSS Foundations &middot; Lesson 1.3</p>
+
+        <article>
+            <h2>Building Your First Layout</h2>
+            <p>In this lesson, you'll learn how semantic HTML elements work together to structure a real page — the same
+                foundation every website you'll ever build rests on.</p>
+
+            <figure>
+                <video controls width="640" height="360">
+                    <source src="../video/lesson-1-3.mp4" type="video/mp4">
+                    <track src="../subtitles/lesson-1-3-en.vtt" kind="subtitles" srclang="en" label="English">
+                    Your browser does not support embedded video.
+                </video>
+                <figcaption>A 12-minute walkthrough building a simple page layout from scratch, semantic element by
+                    semantic element.</figcaption>
+            </figure>
+
+            <p>Every well-built webpage starts with structure before style. In this lesson, we're focusing entirely on
+                semantic HTML — the practice of choosing elements based on what content means, not how you want it to
+                look. A <code>&lt;header&gt;</code> isn't just a box at the top of the page; it tells browsers, search
+                engines, and assistive technology exactly what role that region plays.</p>
+
+            <p>Open your code editor and follow along. By the end of this lesson, you'll have built a simple, fully
+                semantic one-page layout containing a header, a navigation menu, a main content area, and a footer — the
+                exact skeleton nearly every website on the internet is built from.</p>
+
+            <p>Here's the basic skeleton we're building toward:</p>
+
+            <pre><code>&lt;header&gt;
+  &lt;h1&gt;Site Title&lt;/h1&gt;
+  &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;p&gt;Page content goes here.&lt;/p&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+  &lt;p&gt;Copyright text.&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+            <p>Save your file by pressing <kbd>Ctrl</kbd>+<kbd>S</kbd>, then refresh your browser to see the change.</p>
+
+            <figure>
+                <audio controls>
+                    <source src="../audio/lesson-1-3.mp3" type="audio/mpeg">
+                    Your browser does not support embedded audio.
+                </audio>
+                <figcaption>Prefer to listen? Here's the same lesson explained in audio form for your commute.
+                </figcaption>
+            </figure>
+        </article>
+
+        <hr>
+
+        <section aria-labelledby="quiz-heading">
+            <h2 id="quiz-heading">Check Your Understanding</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Which element should wrap your site's main navigation menu?</legend>
+                    <label>
+                        <input type="radio" name="q1" value="header">
+                        &lt;header&gt;
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="nav">
+                        &lt;nav&gt;
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="div">
+                        &lt;div&gt;
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="footer">
+                        &lt;footer&gt;
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which of the following are considered semantic HTML elements? (Select all that apply)
+                    </legend>
+                    <label>
+                        <input type="checkbox" name="q2" value="article">
+                        &lt;article&gt;
+                    </label>
+                    <label>
+                        <input type="checkbox" name="q2" value="div">
+                        &lt;div&gt;
+                    </label>
+                    <label>
+                        <input type="checkbox" name="q2" value="aside">
+                        &lt;aside&gt;
+                    </label>
+                    <label>
+                        <input type="checkbox" name="q2" value="span">
+                        &lt;span&gt;
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit Answers</button>
+            </form>
+        </section>
+
+        <p><a href="lesson.html">Next: Lesson 1.4 — Responsive Design Basics</a></p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <nav aria-label="Footer">
+            <ul>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="catalog.html">Courses</a></li>
+                <li><a href="../instructors.html">Instructors</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <address>
+            <p><a href="tel:+254712345678">+254 712 345 678</a> &middot; <a
+                    href="mailto:admissions@dilsecodeacademy.com">admissions@dilsecodeacademy.com</a></p>
+        </address>
+        <p>&copy; 2026 Dilse Code Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
